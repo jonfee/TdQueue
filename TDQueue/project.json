@@ -1,16 +1,15 @@
 ﻿{
-  "version": "1.0.0-rc1",
-  "description": "TDQueue Class Library",
+  "version": "1.1.0",
   "authors": [ "jonfee" ],
-  "tags": [ "" ],
-  "projectUrl": "",
-  "licenseUrl": "",
-  "frameworks": {
-    "dnx451": { },
-    "dnxcore50": { }
-  },
   "dependencies": {
-    "System.Runtime": "4.0.21-beta-23516",
-    "System.Runtime.InteropServices": "4.0.21-beta-23516"
+    "NETStandard.Library": "1.6.0"
+  },
+  "frameworks": {
+    "net45": {},
+    "net452": {},
+    "net46": {},
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
   }
 }
